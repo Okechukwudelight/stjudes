@@ -42,20 +42,20 @@ const ContactSection = () => {
     {
       icon: Phone,
       title: "Call Us",
-      info: "+234 818 164 5373",
+      info: "+2348035063704",
       details: "Mon - Fri: 9:00 AM - 5:00 PM"
     },
     {
       icon: Mail,
       title: "Email Us",
-      info: "info@stjudesomole.org",
+      info: "stjudesanglicanomole1@yahoo.com",
       details: "We'll respond within 24 hours"
     },
     {
       icon: Clock,
       title: "Service Times",
-      info: "Sundays: 8:00 AM & 10:30 AM",
-      details: "Bible Study: Wed 7:00 PM"
+      info: "Sundays: 8:00 AM & 10:00 AM",
+      details: "Bible Study: Tue 6:00 PM"
     }
   ];
 

@@ -36,7 +36,7 @@ const HeroSection = () => {
           </div>
           <div className="flex items-center gap-2">
             <Clock className="h-5 w-5 text-accent" />
-            <span>Sunday Services: 8:00 AM & 10:30 AM</span>
+            <span>Sunday Services: 8:00 AM & 10:00 AM</span>
           </div>
         </div>
 
@@ -52,19 +52,13 @@ const HeroSection = () => {
           <Button 
             size="lg" 
             variant="outline" 
-            className="border-2 border-white text-white hover:bg-white hover:text-primary font-semibold px-8 py-3 text-lg"
+            className="border-2 border-white bg-white/10 text-white hover:bg-white hover:text-primary font-semibold px-8 py-3 text-lg"
           >
             Watch Online
           </Button>
         </div>
       </div>
 
-      {/* Scroll Indicator */}
-      <div className="absolute bottom-8 left-1/2 transform -translate-x-1/2 animate-bounce">
-        <div className="w-6 h-10 border-2 border-white/50 rounded-full flex justify-center">
-          <div className="w-1 h-3 bg-white/70 rounded-full mt-2 animate-pulse"></div>
-        </div>
-      </div>
     </section>
   );
 };

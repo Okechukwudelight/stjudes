@@ -13,7 +13,7 @@ const ProgramsSection = () => {
     },
     {
       title: "Family Service",
-      time: "10:30 AM", 
+      time: "10:00 AM", 
       day: "Every Sunday",
       description: "Contemporary worship with children's programs",
       audience: "Families & newcomers"
@@ -23,19 +23,19 @@ const ProgramsSection = () => {
   const weeklyPrograms = [
     {
       title: "Bible Study",
-      time: "7:00 PM",
-      day: "Wednesdays",
+      time: "6:00 PM",
+      day: "Tuesdays",
       description: "Deep dive into Scripture with discussion and prayer"
     },
     {
       title: "Prayer Meeting",
       time: "6:00 PM",
-      day: "Fridays",
+      day: "Wednesdays",
       description: "Community prayer time for church and personal needs"
     },
     {
       title: "Youth Fellowship",
-      time: "4:00 PM",
+      time: "5:00 PM",
       day: "Saturdays",
       description: "Fun, faith-building activities for teenagers"
     },

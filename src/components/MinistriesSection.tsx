@@ -9,14 +9,14 @@ const MinistriesSection = () => {
       icon: Music,
       title: "Choir Ministry",
       description: "Join our voices in praise through traditional hymns and contemporary worship songs. We rehearse on Thursday evenings and lead worship every Sunday.",
-      leader: "Music Director",
+      leader: "Mr. Adebayo Oyejide",
       contact: "choir@stjudesomole.org"
     },
     {
       icon: Users,
       title: "Youth Fellowship",
       description: "Dynamic ministry for teenagers and young adults featuring Bible study, fun activities, leadership development, and community service projects.",
-      leader: "Youth Pastor",
+      leader: "Bro. Niyi",
       contact: "youth@stjudesomole.org"
     },
     {
@@ -37,7 +37,7 @@ const MinistriesSection = () => {
       icon: Baby,
       title: "Children's Ministry",
       description: "Nurturing faith in our youngest members through age-appropriate Bible lessons, crafts, games, and special children's church programs.",
-      leader: "Sunday School Coordinator",
+      leader: "Bro. Idahosa Osamhanze",
       contact: "children@stjudesomole.org"
     },
     {
