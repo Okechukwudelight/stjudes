@@ -27,7 +27,7 @@ const WelcomeSection = () => {
   ];
 
   return (
-    <section className="py-20 bg-gradient-to-b from-background to-secondary">
+    <section id="welcome" className="py-20 bg-gradient-to-b from-background to-secondary">
       <div className="container mx-auto px-4">
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           {/* Welcome Text */}

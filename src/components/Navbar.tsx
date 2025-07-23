@@ -8,11 +8,10 @@ const Navbar = () => {
 
   const navItems = [
     { name: 'Home', href: '#home' },
-    { name: 'About', href: '#about' },
+    { name: 'About', href: '#welcome' },
     { name: 'Programs', href: '#programs' },
     { name: 'Ministries', href: '#ministries' },
-    { name: 'Gallery', href: '#gallery' },
-    { name: 'Sermons', href: '#sermons' },
+    { name: 'Gallery', href: '/gallery' },
     { name: 'Contact', href: '#contact' },
   ];
 

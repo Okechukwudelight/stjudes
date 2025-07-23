@@ -43,11 +43,11 @@ const Footer = () => {
               </div>
               <div className="flex items-center gap-3">
                 <Phone className="h-4 w-4 text-accent" />
-                <span className="text-sm">+234 818 164 5373</span>
+                <span className="text-sm">+2348035063704</span>
               </div>
               <div className="flex items-center gap-3">
                 <Mail className="h-4 w-4 text-accent" />
-                <span className="text-sm">info@stjudesomole.org</span>
+                <span className="text-sm">stjudesanglicanomole1@yahoo.com</span>
               </div>
             </div>
           </div>
@@ -91,16 +91,20 @@ const Footer = () => {
             <h3 className="text-lg font-semibold mb-6">Service Times</h3>
             <div className="space-y-3 mb-6">
               <div>
-                <div className="font-medium text-accent">Sunday Services</div>
-                <div className="text-sm text-primary-foreground/80">8:00 AM & 10:30 AM</div>
+                <div className="font-medium text-accent">Holy Communion</div>
+                <div className="text-sm text-primary-foreground/80">Sunday 7:00 AM & 10:00 AM</div>
               </div>
               <div>
                 <div className="font-medium text-accent">Bible Study</div>
-                <div className="text-sm text-primary-foreground/80">Wednesday 7:00 PM</div>
+                <div className="text-sm text-primary-foreground/80">Sunday 9:00 AM & Tuesday 6:00 PM</div>
               </div>
               <div>
                 <div className="font-medium text-accent">Prayer Meeting</div>
-                <div className="text-sm text-primary-foreground/80">Friday 6:00 PM</div>
+                <div className="text-sm text-primary-foreground/80">Wednesday 6:00 PM</div>
+              </div>
+              <div>
+                <div className="font-medium text-accent">Youth Fellowship</div>
+                <div className="text-sm text-primary-foreground/80">Saturday 5:00 PM</div>
               </div>
             </div>
 
