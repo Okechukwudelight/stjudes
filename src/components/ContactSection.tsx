@@ -101,16 +101,16 @@ const ContactSection = () => {
                 <CardTitle className="text-xl text-primary">Find Us</CardTitle>
               </CardHeader>
               <CardContent>
-                <div className="aspect-video rounded-lg overflow-hidden">
+                <div className="aspect-video rounded-lg overflow-hidden w-full max-w-full">
                   <iframe 
                     src="https://www.google.com/maps/embed?pb=!1m23!1m12!1m3!1d126818.91178645128!2d3.2750012559562003!3d6.635620998710863!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m8!3e6!4m0!4m5!1s0x103b93eb6e385d27%3A0xae56270190c818a9!2sNo%205%20Ademola%20Ajasa%20St%2C%20Omole%20Phase%201%2C%20Ikeja%20101233%2C%20Lagos!3m2!1d6.635627899999999!2d3.3574031!5e0!3m2!1sen!2sng!4v1753281128424!5m2!1sen!2sng" 
                     width="100%" 
                     height="100%" 
-                    style={{border:0}} 
+                    style={{border:0, maxWidth: '100%'}} 
                     allowFullScreen={true}
                     loading="lazy" 
                     referrerPolicy="no-referrer-when-downgrade"
-                    className="w-full h-full"
+                    className="w-full h-full max-w-full"
                   />
                 </div>
               </CardContent>

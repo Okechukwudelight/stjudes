@@ -16,7 +16,7 @@ const HeroSection = () => {
       </div>
 
       {/* Content */}
-      <div className="relative z-10 text-center text-white px-4 max-w-4xl mx-auto">
+      <div className="relative z-10 text-center text-white px-4 max-w-4xl mx-auto w-full overflow-hidden">
         <h1 className="text-5xl md:text-7xl font-bold mb-6 leading-tight">
           St Jude's <span className="text-accent">Anglican</span> Church
         </h1>
