@@ -37,14 +37,14 @@ const MinistriesSection = () => {
       icon: Baby,
       title: "Children's Ministry",
       description: "Nurturing faith in our youngest members through age-appropriate Bible lessons, crafts, games, and special children's church programs.",
-      leader: "Bro. Idahosa Osamhanze",
+      leader: "Bro. Charles",
       contact: "children@stjudesomole.org"
     },
     {
       icon: Heart,
       title: "Prayer Ministry",
       description: "Intercession and prayer support for our church family and community. Prayer chains, healing services, and spiritual warfare prayer teams.",
-      leader: "Prayer Coordinator",
+      leader: "Bro. Idahosa Osamhanze",
       contact: "prayer@stjudesomole.org"
     }
   ];

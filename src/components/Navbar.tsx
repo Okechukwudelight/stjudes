@@ -23,7 +23,7 @@ const Navbar = () => {
           {/* Logo */}
           <div className="flex items-center space-x-2">
             <Cross className="h-8 w-8 text-accent" />
-            <div className="text-xl font-bold text-primary mt-1">St Jude's Anglican</div>
+            <div className="text-xl font-bold text-primary mt-1 md:mt-0">St Jude's Anglican</div>
           </div>
 
           {/* Desktop Navigation */}
@@ -45,9 +45,9 @@ const Navbar = () => {
               variant="ghost"
               size="icon"
               onClick={() => setIsOpen(!isOpen)}
-              className="text-primary p-2"
+              className="text-primary p-3"
             >
-              {isOpen ? <X className="h-8 w-8" /> : <Menu className="h-8 w-8" />}
+              {isOpen ? <X className="h-10 w-10" /> : <Menu className="h-10 w-10" />}
             </Button>
           </div>
         </div>

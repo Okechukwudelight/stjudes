@@ -6,16 +6,16 @@ const ProgramsSection = () => {
   const services = [
     {
       title: "Holy Communion Service",
-      time: "8:00 AM",
+      time: "7:00 AM & 10:00 AM",
       day: "Every Sunday",
       description: "Traditional Anglican service with Holy Communion",
-      audience: "All ages welcome"
+      audience: "Families & newcomers"
     },
     {
-      title: "Family Service",
-      time: "10:00 AM", 
+      title: "Bible Study",
+      time: "9:00 AM", 
       day: "Every Sunday",
-      description: "Contemporary worship with children's programs",
+      description: "Biblical teaching and spiritual growth for all",
       audience: "Families & newcomers"
     }
   ];

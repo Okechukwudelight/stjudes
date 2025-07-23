@@ -54,8 +54,8 @@ const ContactSection = () => {
     {
       icon: Clock,
       title: "Service Times",
-      info: "Sundays: 8:00 AM & 10:00 AM",
-      details: "Bible Study: Tue 6:00 PM"
+      info: "Sundays: 7:00 AM & 10:00 AM",
+      details: "Bible Study: Sun 9:00 AM"
     }
   ];
 
@@ -95,20 +95,23 @@ const ContactSection = () => {
               ))}
             </div>
 
-            {/* Map Placeholder */}
+            {/* Map */}
             <Card className="shadow-lg">
               <CardHeader>
                 <CardTitle className="text-xl text-primary">Find Us</CardTitle>
               </CardHeader>
               <CardContent>
-                <div className="aspect-video bg-muted rounded-lg flex items-center justify-center">
-                  <div className="text-center">
-                    <MapPin className="h-12 w-12 text-accent mx-auto mb-4" />
-                    <p className="text-muted-foreground">Interactive map coming soon</p>
-                    <p className="text-sm text-muted-foreground mt-2">
-                      No. 5 Ademola Ajasa Street, Omole Phase 1, Ikeja, Lagos
-                    </p>
-                  </div>
+                <div className="aspect-video rounded-lg overflow-hidden">
+                  <iframe 
+                    src="https://www.google.com/maps/embed?pb=!1m23!1m12!1m3!1d126818.91178645128!2d3.2750012559562003!3d6.635620998710863!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m8!3e6!4m0!4m5!1s0x103b93eb6e385d27%3A0xae56270190c818a9!2sNo%205%20Ademola%20Ajasa%20St%2C%20Omole%20Phase%201%2C%20Ikeja%20101233%2C%20Lagos!3m2!1d6.635627899999999!2d3.3574031!5e0!3m2!1sen!2sng!4v1753281128424!5m2!1sen!2sng" 
+                    width="100%" 
+                    height="100%" 
+                    style={{border:0}} 
+                    allowFullScreen={true}
+                    loading="lazy" 
+                    referrerPolicy="no-referrer-when-downgrade"
+                    className="w-full h-full"
+                  />
                 </div>
               </CardContent>
             </Card>
